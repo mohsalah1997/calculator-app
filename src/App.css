@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  background-color: black;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  height: 100vh;
+}
+header {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  color: rgb(187, 182, 182);
+  font-size: 0.8rem;
+}
+.content {
+  padding-top: 0.5rem;
+  height: 35%;
+}
+.element {
+  height: 40%;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  color: white;
+}
+.element div {
+  margin: 1.8rem;
+  font-size: 2rem;
+}
+.element__orange {
+  color: rgb(215, 121, 93);
+}
+
+.history {
+  height: 90%;
+  color: aliceblue;
+}
+.input {
+  width: 100%;
+  border: none;
+  height: 4rem;
+  color: white;
+  font-size: 3rem;
+  text-align: right;
+  outline: none;
+  font-weight: 350;
+  flex-wrap: wrap;
+}
+
+.element__Equal {
+  color: white;
+}
